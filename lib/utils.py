@@ -131,7 +131,7 @@ def cinsert(InitialDict, Key2Add, Value2Add=None):
 
 def einsert(InitialDict, Key2Add, Value2Add=None):
     r'''
-    Useful to expand. Same behaviour as "cinsert". Useful to expand.
+    Useful to expand. Same behaviour as "cinsert".
     '''
     keys = Key2Add.split(".")
     key_depth = len(keys)
